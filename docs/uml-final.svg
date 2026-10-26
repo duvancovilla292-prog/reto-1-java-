@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1648 992" width="1648" height="992" font-family="DejaVu Sans Mono, Consolas, monospace">
+<defs><marker id="tri" markerWidth="14" markerHeight="14" refX="13" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L13,7 L0,14 Z" fill="#fff" stroke="#222" stroke-width="1.5"/></marker><marker id="dia" markerWidth="18" markerHeight="14" refX="0" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,7 L9,0 L18,7 L9,14 Z" fill="#fff" stroke="#222" stroke-width="1.5"/></marker><marker id="opn" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L11,6 L0,12" fill="none" stroke="#222" stroke-width="1.5"/></marker></defs>
+<rect x="0" y="0" width="1648" height="992" fill="#ffffff"/>
+<text x="20" y="34" font-size="20" fill="#111" font-weight="bold">UML de clases FINAL - Feria de talleres culturales</text>
+<text x="20" y="56" font-size="12" fill="#111">+ publico   - privado   # protegido   cursiva = abstracto   subrayado = estatico   punteada = realiza / usa</text>
+<path d="M913,200 L913,162" fill="none" stroke="#222" stroke-width="1.5" stroke-dasharray="7,5" marker-end="url(#tri)"/>
+<path d="M1419,200 L1419,104 L1012,104" fill="none" stroke="#222" stroke-width="1.5" stroke-dasharray="7,5" marker-end="url(#tri)"/>
+<path d="M724,104 L814,104" fill="none" stroke="#222" stroke-width="1.5" stroke-dasharray="7,5" marker-end="url(#opn)"/>
+<text x="769" y="98" font-size="11" text-anchor="middle" fill="#111">usa</text>
+<path d="M770,720 L770,685 L913,685 L913,650" fill="none" stroke="#222" stroke-width="1.5" marker-end="url(#tri)"/>
+<path d="M1042,720 L1042,685 L913,685" fill="none" stroke="#222" stroke-width="1.5"/>
+<path d="M585,290 L655,290" fill="none" stroke="#222" stroke-width="1.5" marker-start="url(#dia)"/>
+<text x="607" y="284" font-size="12" fill="#111">1</text>
+<text x="651" y="284" font-size="14" text-anchor="end" fill="#111">*</text>
+<text x="628" y="308" font-size="11" text-anchor="middle" fill="#111">talleres</text>
+<path d="M1419,494 L1419,574" fill="none" stroke="#222" stroke-width="1.5" stroke-dasharray="7,5" marker-end="url(#opn)"/>
+<text x="1427" y="538" font-size="11" fill="#111">crea</text>
+<path d="M797,898 L302,898 L302,462" fill="none" stroke="#222" stroke-width="1.5" stroke-dasharray="7,5" marker-end="url(#opn)"/>
+<path d="M797,916 L8,916 L8,126 L402,126" fill="none" stroke="#222" stroke-width="1.5" stroke-dasharray="7,5" marker-end="url(#opn)"/>
+<path d="M1029,907 L1634,907 L1634,260 L1598,260" fill="none" stroke="#222" stroke-width="1.5" stroke-dasharray="7,5" marker-end="url(#opn)"/>
+<text x="789" y="894" font-size="11" text-anchor="end" fill="#111">usa</text>
+<rect x="814" y="80" width="198" height="82" fill="#ffffff" stroke="#222" stroke-width="1.6"/>
+<rect x="814" y="80" width="198" height="46" fill="#e3edff" stroke="#222" stroke-width="1.6"/>
+<text x="913" y="96" font-size="11" text-anchor="middle" fill="#111">&lt;&lt;interface&gt;&gt;</text>
+<text x="913" y="116" font-size="15" text-anchor="middle" fill="#111" font-weight="bold">Ficha</text>
+<line x1="814" y1="136" x2="1012" y2="136" stroke="#222" stroke-width="1.2"/>
+<text x="822" y="150" font-size="11.5" fill="#111" font-style="italic">+ generarFicha() : String</text>
+<rect x="402" y="80" width="322" height="86" fill="#ffffff" stroke="#222" stroke-width="1.6"/>
+<rect x="402" y="80" width="322" height="34" fill="#e8f5e8" stroke="#222" stroke-width="1.6"/>
+<text x="563" y="100" font-size="15" text-anchor="middle" fill="#111" font-weight="bold">ImpresoraFichas</text>
+<line x1="402" y1="124" x2="724" y2="124" stroke="#222" stroke-width="1.2"/>
+<text x="410" y="138" font-size="11.5" fill="#111">+ mostrar(ficha : Ficha) : void</text>
+<text x="410" y="154" font-size="11.5" fill="#111">+ mostrarTodas(fichas : List&lt;Ficha&gt;) : void</text>
+<rect x="655" y="200" width="516" height="450" fill="#ffffff" stroke="#222" stroke-width="1.6"/>
+<rect x="655" y="200" width="516" height="46" fill="#fff1d6" stroke="#222" stroke-width="1.6"/>
+<text x="913" y="216" font-size="11" text-anchor="middle" fill="#111">&lt;&lt;abstract&gt;&gt;</text>
+<text x="913" y="236" font-size="15" text-anchor="middle" fill="#111" font-weight="bold" font-style="italic">Taller</text>
+<line x1="655" y1="400" x2="1171" y2="400" stroke="#222" stroke-width="1.2"/>
+<text x="663" y="260" font-size="11.5" fill="#111" text-decoration="underline">+ CAPACIDAD_MIN : int</text>
+<text x="663" y="276" font-size="11.5" fill="#111" text-decoration="underline">+ CAPACIDAD_MAX : int</text>
+<text x="663" y="292" font-size="11.5" fill="#111" text-decoration="underline">+ MINUTOS_MIN : int</text>
+<text x="663" y="308" font-size="11.5" fill="#111" text-decoration="underline">+ MINUTOS_MAX : int</text>
+<text x="663" y="324" font-size="11.5" fill="#111">- id : String</text>
+<text x="663" y="340" font-size="11.5" fill="#111">- nombre : String</text>
+<text x="663" y="356" font-size="11.5" fill="#111">- capacidad : int</text>
+<text x="663" y="372" font-size="11.5" fill="#111">- minutosActividad : int</text>
+<text x="663" y="388" font-size="11.5" fill="#111">- inscritos : int</text>
+<text x="663" y="414" font-size="11.5" fill="#111"># Taller(id, nombre : String, capacidad, minutosActividad : int)</text>
+<text x="663" y="430" font-size="11.5" fill="#111" text-decoration="underline">+ normalizarId(id : String) : String</text>
+<text x="663" y="446" font-size="11.5" fill="#111" text-decoration="underline">+ datosValidos(id, nombre : String, capacidad, minutos : int) : boolean</text>
+<text x="663" y="462" font-size="11.5" fill="#111" font-style="italic">+ minutosAdicionales() : int</text>
+<text x="663" y="478" font-size="11.5" fill="#111" font-style="italic">+ modalidad() : String</text>
+<text x="663" y="494" font-size="11.5" fill="#111">+ duracionTotal() : int</text>
+<text x="663" y="510" font-size="11.5" fill="#111">+ cuposRestantes() : int</text>
+<text x="663" y="526" font-size="11.5" fill="#111">+ inscribir(cantidad : int) : boolean</text>
+<text x="663" y="542" font-size="11.5" fill="#111">+ cancelar(cantidad : int) : boolean</text>
+<text x="663" y="558" font-size="11.5" fill="#111">+ getId() : String</text>
+<text x="663" y="574" font-size="11.5" fill="#111">+ getNombre() : String</text>
+<text x="663" y="590" font-size="11.5" fill="#111">+ getCapacidad() : int</text>
+<text x="663" y="606" font-size="11.5" fill="#111">+ getMinutosActividad() : int</text>
+<text x="663" y="622" font-size="11.5" fill="#111">+ getInscritos() : int</text>
+<text x="663" y="638" font-size="11.5" fill="#111">+ generarFicha() : String</text>
+<rect x="20" y="200" width="565" height="262" fill="#ffffff" stroke="#222" stroke-width="1.6"/>
+<rect x="20" y="200" width="565" height="34" fill="#e8f5e8" stroke="#222" stroke-width="1.6"/>
+<text x="302" y="220" font-size="15" text-anchor="middle" fill="#111" font-weight="bold">GestorTalleres</text>
+<line x1="20" y1="260" x2="585" y2="260" stroke="#222" stroke-width="1.2"/>
+<text x="28" y="248" font-size="11.5" fill="#111">- talleres : List&lt;Taller&gt;</text>
+<text x="28" y="274" font-size="11.5" fill="#111">+ registrarPresencial(id, nombre : String, capacidad, minutos : int) : boolean</text>
+<text x="28" y="290" font-size="11.5" fill="#111">+ registrarVirtual(id, nombre : String, capacidad, minutos : int) : boolean</text>
+<text x="28" y="306" font-size="11.5" fill="#111">- puedeRegistrar(id, nombre : String, capacidad, minutos : int) : boolean</text>
+<text x="28" y="322" font-size="11.5" fill="#111">+ buscar(id : String) : Taller</text>
+<text x="28" y="338" font-size="11.5" fill="#111">+ consultarFicha(id : String) : String</text>
+<text x="28" y="354" font-size="11.5" fill="#111">+ inscribir(id : String, cantidad : int) : boolean</text>
+<text x="28" y="370" font-size="11.5" fill="#111">+ cancelar(id : String, cantidad : int) : boolean</text>
+<text x="28" y="386" font-size="11.5" fill="#111">+ listarFichas() : List&lt;Ficha&gt;</text>
+<text x="28" y="402" font-size="11.5" fill="#111">+ cantidadTalleres() : int</text>
+<text x="28" y="418" font-size="11.5" fill="#111">+ totalInscritos() : int</text>
+<text x="28" y="434" font-size="11.5" fill="#111">+ promedioInscritos() : String</text>
+<text x="28" y="450" font-size="11.5" fill="#111">+ liderInscritos() : String</text>
+<rect x="1241" y="200" width="357" height="294" fill="#ffffff" stroke="#222" stroke-width="1.6"/>
+<rect x="1241" y="200" width="357" height="34" fill="#e8f5e8" stroke="#222" stroke-width="1.6"/>
+<text x="1419" y="220" font-size="15" text-anchor="middle" fill="#111" font-weight="bold">AsistenciaSemanal</text>
+<line x1="1241" y1="308" x2="1598" y2="308" stroke="#222" stroke-width="1.2"/>
+<text x="1249" y="248" font-size="11.5" fill="#111" text-decoration="underline">+ DIAS : int = 5</text>
+<text x="1249" y="264" font-size="11.5" fill="#111" text-decoration="underline">+ ASISTENCIA_MIN : int = 0</text>
+<text x="1249" y="280" font-size="11.5" fill="#111" text-decoration="underline">+ ASISTENCIA_MAX : int = 200</text>
+<text x="1249" y="296" font-size="11.5" fill="#111">- asistencias : int[5]</text>
+<text x="1249" y="322" font-size="11.5" fill="#111">+ esDiaValido(dia : int) : boolean</text>
+<text x="1249" y="338" font-size="11.5" fill="#111">+ registrarDia(dia, asistentes : int) : boolean</text>
+<text x="1249" y="354" font-size="11.5" fill="#111">+ corregirDia(dia, asistentes : int) : boolean</text>
+<text x="1249" y="370" font-size="11.5" fill="#111">+ consultarDia(dia : int) : String</text>
+<text x="1249" y="386" font-size="11.5" fill="#111">+ total() : int</text>
+<text x="1249" y="402" font-size="11.5" fill="#111">+ promedio() : double</text>
+<text x="1249" y="418" font-size="11.5" fill="#111">+ maximo() : int</text>
+<text x="1249" y="434" font-size="11.5" fill="#111">+ primerDiaMaximo() : int</text>
+<text x="1249" y="450" font-size="11.5" fill="#111">+ crearEvidenciaTotal() : Evidencia&lt;Integer&gt;</text>
+<text x="1249" y="466" font-size="11.5" fill="#111">+ crearEvidenciaConclusion() : Evidencia&lt;String&gt;</text>
+<text x="1249" y="482" font-size="11.5" fill="#111">+ generarFicha() : String</text>
+<rect x="647" y="720" width="246" height="102" fill="#ffffff" stroke="#222" stroke-width="1.6"/>
+<rect x="647" y="720" width="246" height="34" fill="#e8f5e8" stroke="#222" stroke-width="1.6"/>
+<text x="770" y="740" font-size="15" text-anchor="middle" fill="#111" font-weight="bold">TallerPresencial</text>
+<line x1="647" y1="780" x2="893" y2="780" stroke="#222" stroke-width="1.2"/>
+<text x="655" y="768" font-size="11.5" fill="#111" text-decoration="underline">- MINUTOS_PREPARACION : int = 15</text>
+<text x="655" y="794" font-size="11.5" fill="#111">+ minutosAdicionales() : int</text>
+<text x="655" y="810" font-size="11.5" fill="#111">+ modalidad() : String</text>
+<rect x="933" y="720" width="218" height="102" fill="#ffffff" stroke="#222" stroke-width="1.6"/>
+<rect x="933" y="720" width="218" height="34" fill="#e8f5e8" stroke="#222" stroke-width="1.6"/>
+<text x="1042" y="740" font-size="15" text-anchor="middle" fill="#111" font-weight="bold">TallerVirtual</text>
+<line x1="933" y1="780" x2="1151" y2="780" stroke="#222" stroke-width="1.2"/>
+<text x="941" y="768" font-size="11.5" fill="#111" text-decoration="underline">- MINUTOS_CONEXION : int = 5</text>
+<text x="941" y="794" font-size="11.5" fill="#111">+ minutosAdicionales() : int</text>
+<text x="941" y="810" font-size="11.5" fill="#111">+ modalidad() : String</text>
+<rect x="1241" y="574" width="357" height="150" fill="#ffffff" stroke="#222" stroke-width="1.6"/>
+<rect x="1241" y="574" width="357" height="34" fill="#f3e6fb" stroke="#222" stroke-width="1.6"/>
+<text x="1419" y="594" font-size="15" text-anchor="middle" fill="#111" font-weight="bold">Evidencia&lt;T&gt;</text>
+<line x1="1241" y1="650" x2="1598" y2="650" stroke="#222" stroke-width="1.2"/>
+<text x="1249" y="622" font-size="11.5" fill="#111">- descripcion : String</text>
+<text x="1249" y="638" font-size="11.5" fill="#111">- contenido : T</text>
+<text x="1249" y="664" font-size="11.5" fill="#111">+ Evidencia(descripcion : String, contenido : T)</text>
+<text x="1249" y="680" font-size="11.5" fill="#111">+ getDescripcion() : String</text>
+<text x="1249" y="696" font-size="11.5" fill="#111">+ getContenido() : T</text>
+<text x="1249" y="712" font-size="11.5" fill="#111">+ mostrar() : String</text>
+<rect x="797" y="882" width="232" height="70" fill="#ffffff" stroke="#222" stroke-width="1.6"/>
+<rect x="797" y="882" width="232" height="34" fill="#e8f5e8" stroke="#222" stroke-width="1.6"/>
+<text x="913" y="902" font-size="15" text-anchor="middle" fill="#111" font-weight="bold">Main</text>
+<line x1="797" y1="926" x2="1029" y2="926" stroke="#222" stroke-width="1.2"/>
+<text x="805" y="940" font-size="11.5" fill="#111" text-decoration="underline">+ main(args : String[]) : void</text>
+</svg>
